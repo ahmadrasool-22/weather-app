@@ -35,7 +35,7 @@ function WeatherApp() {
           Weather App
         </h1>
 
-        <div className="flex gap-2 mb-4">
+        <div className="flex flex-col sm:flex-row gap-2 mb-4">
           <input
             type="text"
             value={city}
